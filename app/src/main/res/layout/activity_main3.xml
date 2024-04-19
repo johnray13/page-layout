@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:id="@+id/imageA"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/Ellipse5"/>
+
+        <ImageView
+            android:id="@+id/imageB"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginHorizontal="123dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/Group_15"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/name1"
+            android:layout_marginStart="172dp"
+            android:layout_marginTop="42dp"
+            android:text="Angelica Jackson"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/blue"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/text1"
+            android:layout_marginStart="172dp"
+            android:layout_marginTop="64dp"
+            android:text="Analyzer"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/blue"
+            android:textSize="13sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/text2"
+            android:layout_marginStart="172dp"
+            android:layout_marginTop="90dp"
+            android:text="Change profile"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/blue"
+            android:textSize="11sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/text3"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="159dp"
+            android:text="Strong side:"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/blue"
+            android:textSize="13sp"/>
+
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>
